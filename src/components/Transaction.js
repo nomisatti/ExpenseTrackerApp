@@ -6,7 +6,7 @@ function Transaction ({transactions}) {
 
     const sign = transactions.transactionType ==="Income"? '+' :'-';
     const delteTransaction =e =>{
-        if (window.confirm('Are you sure you wish to remove Transaction')){
+        if (window.confirm('Are you sure you want to remove this Transaction')){
             removeTransaction(transactions.id)
         }
       
