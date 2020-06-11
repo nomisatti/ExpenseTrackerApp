@@ -21,7 +21,7 @@ body {
 
 .container {
   margin: 30px auto;
-  width: 350px;
+  width: 500px;
 }
 
 h1 {
@@ -38,6 +38,7 @@ h3 {
 h4 {
   margin: 0;
   text-transform: uppercase;
+  
 }
 
 .inc-exp-container {
@@ -78,7 +79,7 @@ label {
 }
 
 input[type='text'],
-input[type='number'] {
+input[type='number'] ,select {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
@@ -87,9 +88,10 @@ input[type='number'] {
   width: 100%;
 }
 
+
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #a8df65;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -148,4 +150,12 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+
+.form-control{
+  float: left;
+ 
+  width: 30%;
+  margin-bottom:30px;
+  margin-right: 10px
 }
