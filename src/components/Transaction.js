@@ -5,7 +5,6 @@ function Transaction ({transactions}) {
     const {removeTransaction }= useContext(GlobalContext)
 
     const sign = transactions.transactionType ==="Income"? '+' :'-';
-
     const delteTransaction =e =>{
         if (window.confirm('Are you sure you wish to remove Transaction')){
             removeTransaction(transactions.id)

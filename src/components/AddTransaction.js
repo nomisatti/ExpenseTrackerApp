@@ -14,8 +14,8 @@ function AddTransaction () {
         const newTransaction = {
             id : Math.floor(Math.random() * 10000000),
             text,
-            amount: transactionType === "Income" ?  +amount : -+amount
-         
+            amount: transactionType === "Income" ?  +amount : -+amount,
+            transactionType
         }
 
         addTransaction(newTransaction);
